@@ -1,8 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg">
-  <foreignObject width="100" height="50">
-    <body xmlns="http://www.w3.org/1999/xhtml">
-      <img src="#" onerror="alert('XSS!');console.log(document.cookie)">
-    </body>
-  </foreignObject>
+  <a xlink:href="javascript:alert(document.cookie)">
+    <text x="20" y="35">Click Me</text>
+  </a>
 </svg>
